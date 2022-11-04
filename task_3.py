@@ -10,5 +10,4 @@ def is_prime(n):
 
 
 def is_diabolic(n):
-    return
-#not yet done
+    return "666" in str(n)
