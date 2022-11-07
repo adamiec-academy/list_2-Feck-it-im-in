@@ -1,18 +1,16 @@
 def remove_parentheses(text):
-    result = ""
+   result = ""
     is_inside = False
     for letter in text:
         if letter == "(":
             is_inside = True
-            pass
+            text.replace(letter, "")
         elif letter == ")":
             is_inside = True
-            pass
+            text.replace(letter, "")
         else:
             result = result + letter
 
     return result
 
-
-print(remove_parentheses("(Nie) jest tak zle."))
-# work in progress
+# nwm co zrb dalej, sry
