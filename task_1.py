@@ -1,5 +1,5 @@
 def remove_parentheses(text):
-   result = ""
+    result = ""
     is_inside = False
     for letter in text:
         if letter == "(":
